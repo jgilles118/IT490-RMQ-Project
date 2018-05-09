@@ -1,169 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<title>VMDAJ Welcome</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+</style>
 <body>
-	<div class="header">
-		<div>
-			<a href="index.html"><img src="logo.png" alt="Logo"></a>
-		</div>
-		<form action="index.html">
-			<input type="text" value="This Project belong to VMJAD " id="search">
-			<input type="submit" value="" id="searchbtn">
-		</form>
-	</div>
-	<div class="body">
-		<div>
-			<div class="header">
-				<ul>
-					<li class="current">
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="recipes.html">All Recipes</a>
-					</li>
-					<li>
-						<a href="featured.html">Featured Recipes</a>
-					</li>
-					<li>
-						<a href="videos.html">Videos</a>
-					</li>
-					<li>
-						<a href="about.html">About</a>
-					</li>
-                                        <li>
-                                                <a href="blog.html">Login</a>
-                                        </li>
-					
-				</ul>
-			</div>
-			<div class="body">
-				<div>
-					<a href="index.html"><img src="turkey.jpg" alt="Image"></a>
-				</div>
-				<ul>
-					<li class="current">
-						<a href="blog.html"><img src="holi-turkey.jpg" alt="Image"></a>
-						<div>
-							<h2><a href="blog.html">Holy Turkey</a></h2>
-							<p>
-								This is just a place holder
-							</p>
-						</div>
-					</li>
-					<li>
-						<a href="blog.html"><img src="fruits-and-bread.jpg" alt="Image"></a>
-						<div>
-							<h2><a href="blog.html">Fruits & Bread</a></h2>
-							<p>
-								This is just a place holder
-							</p>
-						</div>
-					</li>
-					<li>
-						<a href="blog.html"><img src="dessert.jpg" alt="Image"></a>
-						<div>
-							<h2><a href="blog.html">Dessert</a></h2>
-							<p>
-								This is just a place holder
-							</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="footer">
-				<ul>
-					<li>
-						<h2><a href="featured.html">Ice Cream</a></h2>
-						<a href="recipes.html"><img src="featured.jpg" alt="Image"></a>
-					</li>
-					<li>
-						<h2><a href="recipes.html">Spaghetti</a></h2>
-						<a href="recipes.html"><img src="a-z.jpg" alt="Image"></a>
-					</li>
-				</ul>
-				<ul>
-					<li>
-						<h2><a href="videos.html">Baked</a></h2>
-						<a href="recipes.html"><img src="videos.jpg" alt="Image"></a>
-					</li>
-					<li>
-						<h2><a href="blog.html">Steak and Chips</a></h2>
-						<a href="recipes.html"><img src="blog.jpg" alt="Image"></a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div>
-			<div>
-				<h3>Cooking Video</h3>
-				<a href="videos.html"><img src="cooking-video.png" alt="Image"></a>
-				<span>Vegetable &amp; Rice Topping</span>
-			</div>
-			<div>
-				<h3>Featured Recipes</h3>
-				<ul id="featured">
-					<li>
-						<a href="recipes.html"><img src="sandwich.jpg" alt="Image"></a>
-						<div>
-							<h2><a href="recipes.html">Ham Sandwich</a></h2>
-							<span>by: Anna</span>
-						</div>
-					</li>
-					<li>
-						<a href="recipes.html"><img src="biscuit-and-coffee.jpg" alt="Image"></a>
-						<div>
-							<h2><a href="recipes.html">Biscuit &amp; Sandwich</a></h2>
-							<span>by: Sarah</span>
-						</div>
-					</li>
-					<li>
-						<a href="recipes.html"><img src="pizza.jpg" alt="Image"></a>
-						<div>
-							<h2><a href="recipes.html">Delicious Pizza</a></h2>
-							<span>by: Rico</span>
-						</div>
-					</li>
-				</ul>
-				</div>
-			<div>
-				<h3>Blog</h3>
-				<ul id="blog">
-					<li>
-						<a href="blog.html">This is just a place holder, so you can see what the site would look like.</a>
-						<span class="date">Jan 9, by Liza</span>
-					</li>
-					<li>
-						<a href="blog.html">This is just a place holder, so you can see what the site would look like.</a>
-						<span class="date">Feb 16, by Myk</span>
-					</li>
-					<li>
-						<a href="blog.html">This is just a place holder, so you can see what the site would look like.</a>
-						<span class="date">March 15, by Xaxan</span>
-					</li>
-				</ul>
-			</div>
-			<div>
-				<h3>Get Updates</h3>
-				<a href="#" target="_blank" id="facebook">Facebook</a>
-				<a href="#" target="_blank" id="twitter">Twitter</a>
-				<a href="#" target="_blank" id="youtube">Youtube</a>
-				<a href="#" target="_blank" id="flickr">Flickr</a>
-				<a href="#" target="_blank" id="googleplus">Google</a>
-			</div>
-		</div>
-	</div>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Food & Recipies</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-show-small">
+      <a href="blog.html" class="w3-bar-item w3-button">Login</a>
+      <a href="#" class="w3-bar-item w3-button">Forum</a>
+      <a href="#" class="w3-bar-item w3-button">###</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:900px" id="home">
+  <img class="http://kirvanphotography.com/wp-content/uploads/2015/08/circle-test.png" alt="Logo" width="1800" height="1000">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">VMDAJ</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="400" height="450">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About VMDAJ</h1><br>
+      <h5 class="w3-center">Where food meets tummy</h5>
+      <p class="w3-large">Varsha Ravi - Front End <br /> James Gilles - RabbitMQ  <br /> Mariya Khan- Database <br /> Diego Mejia - DMZ </p>
+      <p class="w3-large w3-text-grey w3-hide-medium">We are a cool group! Diego loves his IT490 group!</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Recipies -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Recipies</h1><br>
+      <h4>Bread</h4>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins</p><br>
+    
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates</p><br>
+      
+      <h4>Lemonade</h4>
+      <p class="w3-text-grey">Juice of lemon and sugar served with chilled water and ice cubes with mint topped as garnish</p><br>
+    
+   </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-30">
+  <p>Project By VMDAJ </br /> Copyrights Restricted</p>
+</footer>
 
 </body>
-<footer>
-<div class="footer">
-		<div>
-			<p>
-			&copy; VMJAD			</p>
-		</div>
-	</div>
-</footer>
 </html>
+
