@@ -7,13 +7,12 @@ Ensure that the following packages are installed follow configuration
 
 THE sudo commands are all performed in the terminal:
 
-sudo apt-get install -y vim git aptitude apache2
-sudo apt-get install -y php7.0 libapache2-mod-php7.0 php7.0-mbstring php-amqp
-sudo apt-get install -y mysql-server
-sudo apt-get install -y rabbitmq-server
-sudo rabbitmq-plugins enable rabbitmq_management
-sudo service rabbitmq-server (start or stop or restart)
-sudo apt-get install -y syslog-ng-core syslog-ng-mod-amqp
+sudo apt-get install -y vim git aptitude apache2<br>
+sudo apt-get install -y php7.0 libapache2-mod-php7.0 php7.0-mbstring php-amqp<br>
+sudo apt-get install -y mysql-server rabbitmq-server<br>
+sudo rabbitmq-plugins enable rabbitmq_management<br>
+sudo service rabbitmq-server (start or stop or restart)<br>
+sudo apt-get install -y syslog-ng-core syslog-ng-mod-amqp<br>
 
 ---
 * The scripts from the professor's GITHUB.
